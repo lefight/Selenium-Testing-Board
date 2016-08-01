@@ -13,5 +13,7 @@ public class tbCom_Hello {
         fox1.findElementById("lst-ib").sendKeys("Selenium");
         fox1.findElementByCssSelector("button[name=\"btnG\"]").click();
 
+        System.out.println("looks like it works!!");
+
     }
 }
