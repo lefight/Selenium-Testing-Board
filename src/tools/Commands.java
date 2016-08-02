@@ -1,24 +1,36 @@
 package tools;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.testng.internal.Configuration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 
 public class Commands {
-/**
-    public static void clickAndWaitForPageToLoad(By locator) {
-        clickAndWaitForPageToLoad(locator, Configuration.getDefaultTimeout());
-    }
 
-    public static void clickAndWaitForPageToLoad(WebElement element) {
-        click(element);
-        waitForPageToLoad(Configuration.getDefaultTimeout());
-    }
+    public static WebDriver init_Browser(String args) throws Exception {
 
-    public static void clickAndWaitForPageToLoad(By locator, Timeout timeout) {
-        click(locator);
-        waitForPageToLoad(timeout, locator);
+        WebDriver driver;
+
+        String browser = null;
+
+        if (args.length() == 0) {
+            System.out.println("No Browser Parameter given, use default Browser Firefox");
+            browser = "Firefox";
+        } else {
+            browser = args;
+        }
+
+        if (browser.equalsIgnoreCase("Firefox")) {
+            driver = new FirefoxDriver();
+        } else if (browser.equalsIgnoreCase("Chrome")) {
+            String pathToChromeDriver = "/Users/thobein/git/driver/chromedriver";
+            System.setProperty("webdriver.chrome.driver", pathToChromeDriver);
+            driver = new ChromeDriver();
+        } else {
+            System.out.println("Browser not defined!");
+            throw new Exception("Browser not defined!");
+        }
+        return driver;
     }
-**/
 }
