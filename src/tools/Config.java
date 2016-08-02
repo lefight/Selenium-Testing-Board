@@ -18,7 +18,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Config {
-
+/**
 private static String remoteControlHost = "localhost";
 private static int remoteControlPort = 4444;
 
@@ -27,8 +27,8 @@ private static String browser = "*chrome"; //*chrome, *edge, *iexplorer, *firefo
 private static String browserPath = ""; //"C:\\Program Files (x86)\\Mozilla Firefox34\\firefox.exe";
 
 //please get driver from http://docs.seleniumhq.org/download/ and install somewhere
-private static String chromeDriverPath = "/Users/torstenhobein/GitHub/driver/chromedriver";
+private static String chromeDriverPath = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 private static String ieDriverPath = "C:\\driver\\IEDriverServer.exe";
 private static String edgeDriverPath = "C:\\driver\\MicrosoftWebDriver.exe";
-
+**/
 }

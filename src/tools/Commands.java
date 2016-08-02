@@ -1,9 +1,11 @@
 package tools;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
 
 
 public class Commands {
@@ -24,7 +26,7 @@ public class Commands {
         if (browser.equalsIgnoreCase("Firefox")) {
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("Chrome")) {
-            String pathToChromeDriver = "/Users/thobein/git/driver/chromedriver";
+            String pathToChromeDriver = "/Users/torstenhobein/GitHub/driver/chromedriver";
             System.setProperty("webdriver.chrome.driver", pathToChromeDriver);
             driver = new ChromeDriver();
         } else {
@@ -33,4 +35,6 @@ public class Commands {
         }
         return driver;
     }
+
+
 }
