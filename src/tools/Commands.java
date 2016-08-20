@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 
+
 public class Commands {
 
     public static WebDriver init_Browser(String args) throws Exception {
@@ -35,6 +36,12 @@ public class Commands {
         }
         return driver;
     }
+/**
+    public boolean isTextPresent(String text) {
 
+        WebDriver driver = null;
 
+        return driver.getPageSource().contains(text);
+
+    }**/
 }

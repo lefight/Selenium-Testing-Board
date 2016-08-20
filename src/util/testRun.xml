@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WebeeCircle" verbose="10" configfailurepolicy="continue">
+
+    <test name="Scripts for Test" preserve-order="true">
+        <!-- run only in specified countries -->
+        <parameter name="specificCountry" value="de"/>
+        <classes>
+            <class name="tbCom_Hello" />
+        </classes>
+    </test>
+
+</suite>
