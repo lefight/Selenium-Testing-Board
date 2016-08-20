@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class tbCom_Hello {
 
 
-
+    @Test
     public static void main(String[] args) throws Exception {
 
         WebDriver driver;
