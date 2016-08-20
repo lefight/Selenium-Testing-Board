@@ -2,7 +2,7 @@
 
 <suite name="WebeeCircle" verbose="10" configfailurepolicy="continue">
 
-    <test name="Scripts for Test" preserve-order="true">
+    <test name="erster Test" preserve-order="true">
         <!-- run only in specified countries -->
         <parameter name="specificCountry" value="de"/>
         <classes>
