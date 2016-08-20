@@ -6,7 +6,7 @@
         <!-- run only in specified countries -->
 
         <classes>
-            <class name="tbCom_Hello" />
+            <class name="com.selTest.tbCom_Hello" />
         </classes>
     </test>
 
