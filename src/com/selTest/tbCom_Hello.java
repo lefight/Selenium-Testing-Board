@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
@@ -15,12 +16,11 @@ import tools.Commands;
 public class tbCom_Hello {
 
 
-    @Test
     public static void main(String[] args) throws Exception {
 
         WebDriver driver;
 
-        driver = Commands.init_Browser("chrome");
+        driver = Commands.init_Browser("firefox");
         System.out.println(driver);
 
 
@@ -34,12 +34,13 @@ public class tbCom_Hello {
 
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
+        driver.findElement(By.id("rememberme")).click();
+
         boolean erg = driver.findElement(By.id("rememberme")).isEnabled();
 
         System.out.println("Remember: "+erg);
 
     }
-
 
 
 }
