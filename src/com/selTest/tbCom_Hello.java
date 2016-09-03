@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.internal.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
@@ -20,25 +22,28 @@ public class tbCom_Hello {
 
         WebDriver driver;
 
-        driver = Commands.init_Browser("firefox");
+        driver = Commands.init_Browser("chrome");
         System.out.println(driver);
 
+        driver.get("http://thobein.wordpress.com/login");
 
-        driver.get("http://www.t-hobein.de/login");
-
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
         driver.findElement(By.id("user_login")).sendKeys("torsten@t-hobein.de");
 
         driver.findElement(By.id("user_pass")).sendKeys("S1rT0by_wo");
 
-        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-
         driver.findElement(By.id("rememberme")).click();
 
-        boolean erg = driver.findElement(By.id("rememberme")).isEnabled();
+        driver.findElement(By.id("user_pass")).submit();
 
-        System.out.println("Remember: "+erg);
+
+        WebElement meMenu = driver.findElement(By.cssSelector("img.avatar.avatar-32"));
+        Actions action = new Actions(driver);
+
+        action.moveToElement(meMenu).build().perform();
+
+        driver.findElement(By.xpath("//span[2]/a[2]")).click();
+
 
     }
 
