@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testRun" verbose="10" configfailurepolicy="continue">
+
+    <test name="erster Test" preserve-order="true">
+        <!-- run only in specified countries -->
+
+        <classes>
+            <class name="com.selTest.tbCom_Hello" />
+        </classes>
+    </test>
+
+</suite>
