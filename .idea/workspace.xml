@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c42e00e6-3931-46ed-9123-9d5a217d31e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java" afterPath="$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java" />
     </list>
     <ignored path="Selenium-Testing-Board.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +27,14 @@
       <file leaf-file-name="tbCom_Hello.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testRun.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/testRun.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="293">
+              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+              <folding>
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#2258#2259#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -549,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470068097950</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="switch frame">
+      <created>1474367740032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474367740032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -615,11 +618,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="text ausgabe" />
-    <option name="LAST_COMMIT_MESSAGE" value="text ausgabe" />
+    <MESSAGE value="switch frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch frame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -632,7 +636,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -648,7 +657,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,7 +678,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +699,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,9 +791,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="293">
+          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding>
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
