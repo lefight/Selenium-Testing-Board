@@ -18,16 +18,18 @@ public class tbCom_Hello {
 
     public static void main(String[] args) throws Exception {
 
+        System.out.println("RunStart");
+
         WebDriver driver;
 
         driver = Commands.init_Browser("chrome");
         System.out.println(driver);
 
-        driver.get("http://thobein.wordpress.com/login");
+        driver.get("http://localhost/wp-login.php");
 
-        driver.findElement(By.id("user_login")).sendKeys("torsten@t-hobein.de");
+        driver.findElement(By.id("user_login")).sendKeys("selenium");
 
-        driver.findElement(By.id("user_pass")).sendKeys("S1rT0by_wo");
+        driver.findElement(By.id("user_pass")).sendKeys("toho");
 
         driver.findElement(By.id("rememberme")).click();
 
@@ -40,20 +42,30 @@ public class tbCom_Hello {
             }
         });
 
+        /**
+         * mouseover and wait for dropdown from user image
+         * Todo: "Abmelden" doesn't work
+         */
+
 /**
-        WebElement meMenu = driver.findElement(By.cssSelector("img.avatar.avatar-32"));
+        WebElement meMenu = driver.findElement(By.cssSelector("img.avatar.avatar-26"));
         Actions action = new Actions(driver);
         action.moveToElement(meMenu).build().perform();
-        driver.findElement(By.xpath("//span[2]/a[2]")).click();
+        driver.findElement(By.xpath("//ul[2]/li/div/ul/li[3]/a")).click();
 **/
 
-        driver.findElement(By.xpath("//li[4]/a/div[3]")).click();
-        driver.findElement(By.xpath("//a[contains(text(),'Erstellen')]")).click();
+
+        driver.findElement(By.xpath("//li[3]/a/div[3]")).click();
+        driver.findElement(By.xpath("//li[3]/ul/li[3]/a")).click();
         driver.findElement(By.id("title-prompt-text")).click();
         driver.findElement(By.id("title")).sendKeys("Testeintrag automatisch");
         driver.findElement(By.id("content-html")).click();
         driver.findElement(By.id("content")).sendKeys("Dies ist mein erster Text mit Selenium");
 
+        /**
+         * Button not available in this version
+         */
+/**
         // click on "Kontaktformular hinzufügen"
         driver.findElement(By.id("insert-jetpack-contact-form")).click();
 
@@ -71,11 +83,18 @@ public class tbCom_Hello {
 
         System.out.println("leave Kontaktformular");
 
+**/
+
+        /**
+         * switch back to recend frame
+         * Todo: close the frame
+         */
+
+
         //driver.switchTo().defaultContent();
         //Alert alert = driver.switchTo().alert();
         //click on "Dateien hinzufügen"
         //insert-media-button
-
 
 
         System.out.println("RunEnde");

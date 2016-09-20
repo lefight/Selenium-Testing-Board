@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c42e00e6-3931-46ed-9123-9d5a217d31e8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Selenium-Testing-Board/com/selTest/tbCom_Hello.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java" afterPath="$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java" />
     </list>
@@ -27,13 +28,11 @@
       <file leaf-file-name="tbCom_Hello.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#2258#2259#0" expanded="true" />
-                <element signature="e#2303#2304#0" expanded="true" />
+                <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+                <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -109,6 +108,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,9 +185,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474367740032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="switch frame">
+      <created>1474373774375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1474373774375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,7 +629,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -637,10 +643,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -658,10 +673,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -679,10 +692,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -700,10 +711,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -791,13 +800,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selTest/tbCom_Hello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
+            <marker date="1474408721000" expanded="false" signature="2474:2478" ph=" { " />
+            <marker date="1474408721000" expanded="false" signature="2507:2521" ph=" }" />
           </folding>
         </state>
       </provider>
