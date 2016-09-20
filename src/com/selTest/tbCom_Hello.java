@@ -27,7 +27,6 @@ public class tbCom_Hello {
 
         driver.get("http://thobein.wordpress.com/login");
 
-
         driver.findElement(By.id("user_login")).sendKeys("torsten@t-hobein.de");
 
         driver.findElement(By.id("user_pass")).sendKeys("S1rT0by_wo");
@@ -36,13 +35,42 @@ public class tbCom_Hello {
 
         driver.findElement(By.id("user_pass")).submit();
 
-
+/**
         WebElement meMenu = driver.findElement(By.cssSelector("img.avatar.avatar-32"));
         Actions action = new Actions(driver);
 
         action.moveToElement(meMenu).build().perform();
 
         driver.findElement(By.xpath("//span[2]/a[2]")).click();
+**/
+
+        driver.findElement(By.xpath("//li[4]/a/div[3]")).click();
+        driver.findElement(By.xpath("//a[contains(text(),'Erstellen')]")).click();
+        driver.findElement(By.id("title-prompt-text")).click();
+        driver.findElement(By.id("title")).sendKeys("Testeintrag automatisch");
+        driver.findElement(By.id("content-html")).click();
+        driver.findElement(By.id("content")).sendKeys("Dies ist mein erster Text mit Selenium");
+
+        driver.findElement(By.id("insert-jetpack-contact-form")).click();
+
+
+
+        //System.out.println();
+
+        driver.switchTo().frame("TB_iframeContent");
+
+        driver.findElement(By.id("fb-fieldname")).sendKeys("ToHo");
+
+
+
+
+        System.out.println("RunEnde");
+
+
+
+
+
+
 
 
     }
